@@ -7,6 +7,9 @@
 #       [obj_name];[RA];[DEC]
 #   Ouput CSV file will look like this:
 #       [obj_name];[RA];[DEC];[X];[Y]
+#   
+#   Author: Tino Heuberger
+#   Github: https://github.com/RononDex/AstropyWCSConverter
 
 from astropy.wcs import WCS
 import numpy as np
